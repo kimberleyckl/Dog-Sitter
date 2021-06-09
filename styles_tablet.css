@@ -1,0 +1,150 @@
+/* ------------------------ banner ---------------------------*/
+body {
+	font-family: Quicksand;
+}
+
+#bannerImgs {
+	width: 100%;
+	z-index: 0;
+}
+
+#gradient {
+	top: 0;
+	left: 0;
+	width: 60%;
+	height: 80vh;
+	background-image: linear-gradient(to right, black, black, black, transparent);
+	opacity: 0.5;
+	position: absolute;
+	z-index: 2;
+}
+
+#bi1 {
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -2;
+}
+
+#bi2 {
+	margin-top: -7vh;
+	width: 100%;
+	z-index: 2;
+	position: relative;
+}
+
+.bannerHeading {
+	color: white;
+	left: 12.5%;
+	top: 10vw;
+	position: absolute;
+	font-size: 4vw;
+	font-weight: bold;
+	z-index: 5;
+}
+
+.bannerContent {
+	width: 45%;
+	color: white;
+	left: 12.5%;
+	position: absolute;
+	top: 16vw;
+	font-size: 2vw;
+	z-index: 5;
+}
+
+.bannerButton {
+	width: 12%;
+	font-size: 1.5vw;
+	height: 3.5vw;
+	color: white;
+	background-color: #de6c17;
+	text-align: center;
+	position: absolute;
+	left: 12.5%;
+	line-height: 3.5vw;
+	border-radius: 5px;
+	z-index: 5;
+	top: 25vw;
+}
+.bannerButton:hover {
+	cursor: pointer;
+	background-color: #ff6d00;
+}
+
+/* ------------------------ body ---------------------------*/
+#body {
+	z-index: 10;
+	background-color: white;
+	position: relative;
+	margin-top: -0.6vw;
+	padding-top: 5vh;
+	text-align: center;
+}
+
+.bodyHeading {
+	font-weight: bold;
+	font-size: 4vw;
+	color: #36413c;
+}
+
+.bodyContent {
+	margin: 2vh auto;
+	font-size: 2vw;
+	width: 60%;
+	color: #5e6e66;
+}
+
+#cardContainer {
+	padding: 5vh 6vw;
+	height: auto;
+}
+
+.cards {
+	border-radius: 10px;
+	overflow: hidden;
+	width: 80%;
+	display: inline-block;
+	margin: 1% 1% 5% 1%;
+	box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+	text-align: left;
+}
+
+.cards img {
+	width: 50%;
+	float: left;
+}
+
+.text {
+	display: block;
+	float: left;
+	width: 49%;
+}
+
+.cardTitle {
+	padding: 1vh 2vw;
+	margin: 2vh auto 0 auto;
+	font-size: 2vw;
+	font-weight: bold;
+	color: #36413c;
+	height: 4vw;
+}
+
+.cardContent {
+	font-size: 1.5vw;
+	padding: 0 2vw 1vh 2vw;
+	color: #5e6e66;
+	height: 10vw;
+}
+
+.learnMore {
+	font-size: 1.3vw;
+	padding: 0 2vw 0 2vw;
+	color: #de6c17;
+	font-weight: bold;
+}
+
+.learnMore:hover {
+	color: #ff6d00;
+	cursor: pointer;
+}
